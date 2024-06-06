@@ -1,7 +1,7 @@
 ---
 argument_specs:
   main:
-    short_description: This role performs first steps on a freshly installed Debian system.
+    short_description: Debian First Steps
     description:
       - This role performs first steps on a freshly installed Debian system.
     author: Jim Tarpley
