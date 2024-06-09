@@ -4,6 +4,13 @@
     that:
       - ansible_distribution == "Debian"
 
+- name: Install firewalld
+  become: true
+  ansible.builtin.package:
+    name:
+      - firewalld
+    state: present
+
 - name: Disable hibernation
   loop:
     - sleep.target
