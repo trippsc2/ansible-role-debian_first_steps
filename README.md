@@ -1,13 +1,13 @@
 <!-- BEGIN_ANSIBLE_DOCS -->
 
-# Ansible Role: trippsc2.debian_first_steps
-This role performs first steps on a freshly installed Debian system.
+# Ansible Role: ansible-role-debian_first_steps
+DEPRECATED: Use trippsc2.first_steps.debian instead.
 
 ## Requirements
 
 | Platform | Versions |
 | -------- | -------- |
-| Debian | buster, bookworm |
+| Debian | <ul><li>bullseye</li><li>bookworm</li></ul> |
 
 ## Dependencies
 
